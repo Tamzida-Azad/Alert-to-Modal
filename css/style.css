@@ -1,0 +1,34 @@
+.alert_link h5{
+    font-weight: 600;
+
+}
+.alert-custom{
+    color: #000000;
+    background-color: #f4f207;
+    border-color: #ffeeba;
+}
+.alert-custom-link{
+    color: red;
+}
+.alert_dismiss .alert-warning {
+    color: #ffffff;
+    background-color: #ff2b4f;
+    border-color: #ffeeba;
+}
+
+.badge_custom{
+margin-left: 186px;
+}
+.badges{
+    font-size: 25px;
+}
+.vertical_drop_down button{
+    border: 0.5px solid #929394 !important;
+  /*  padding: 0 50px 0 5px !important;*/
+    width: 70px !important;
+}
+.carousal_custom p{
+font-size: 15px;
+color: white;
+}
+

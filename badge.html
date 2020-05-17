@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS links-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
+  <title>Bootstrap Content & Components</title>
+
+</head>
+<body>
+  <br>
+  <section class="breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Alerts</a></li>
+              <li class="breadcrumb-item"><a href="button.html">Button</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Badge</li>
+              <li class="breadcrumb-item"><a href="card.html">Card</a></li>
+              <li class="breadcrumb-item"><a href="carousel.html">Carousel</a></li>
+              <li class="breadcrumb-item"><a href="collapse.html">Collapse</a></li>
+              <li class="breadcrumb-item"><a href="dropdown.html">Drop Downs</a></li>
+              <li class="breadcrumb-item"><a href="form.html">Forms</a></li>
+              <li class="breadcrumb-item"><a href="input_group.html">Input Group</a></li>
+              <li class="breadcrumb-item"><a href="jumbotron.html">Jumbotron</a></li>
+              <li class="breadcrumb-item"><a href="button.html">List Group</a></li>
+              <li class="breadcrumb-item"><a href="button.html">Modal</a></li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="badge">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1><span class="badge badge-secondary badge_custom">New Post</span></h1>         
+        </div>
+      </div>
+    </div>
+  </section>
+<br>
+  <section class="button_badge">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <button type="button" class="btn btn-primary">
+            New Course Videos <span class="badge badge-light">4</span>
+          </button>  
+          <button type="button" class="btn btn-primary">
+            Jobs <span class="badge badge-light">9</span>
+            <span class="sr-only">unread messages</span>
+          </button>       
+        </div>
+      </div>
+    </div>
+  </section>
+<br>
+  <section class="badges">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <a href="#" class="badge badge-primary">Primary</a>
+          <a href="#" class="badge badge-secondary">Secondary</a>
+          <a href="#" class="badge badge-success">Success</a>
+          <a href="#" class="badge badge-danger">Danger</a>
+          <a href="#" class="badge badge-warning">Warning</a>
+          <a href="#" class="badge badge-info">Info</a>
+          <a href="#" class="badge badge-light">Light</a>
+          <a href="#" class="badge badge-dark">Dark</a>   
+        </div>
+      </div>
+    </div>
+  </section>
+<br>
+  <section class="badges">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <span class="badge badge-pill badge-primary">Primary</span>
+          <span class="badge badge-pill badge-secondary">Secondary</span>
+          <span class="badge badge-pill badge-success">Success</span>
+          <span class="badge badge-pill badge-danger">Danger</span>
+          <span class="badge badge-pill badge-warning">Warning</span>
+          <span class="badge badge-pill badge-info">Info</span>
+          <span class="badge badge-pill badge-light">Light</span>
+          <span class="badge badge-pill badge-dark">Dark</span>  
+        </div>
+      </div>
+    </div>
+  </section>
+<br>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+</script>
+</body>
+</html>
